@@ -65,6 +65,7 @@
 }
 .two div {
   margin-left: 28px;
+  cursor: pointer;
 }
 .two div:hover{
     /* text-decoration: underline; */
