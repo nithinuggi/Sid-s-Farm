@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav {
+  position: sticky;
+  top: 0;
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+  height: 100px;
+  width: 100%;
+  /* border: 2px solid black; */
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  padding: 0px 60px;
+  align-items: center;
+  z-index: 3;
+  /* color: white; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+.one {
+  font-size: 40px;
+   font-family: "Chelsea Market", system-ui;
+  font-weight: 400;
+  font-style: normal;
+ 
+}
+.one a{
+  color: black;
+  text-decoration: none;
+}
+.one:hover{
+     /* box-shadow: 0px 5px 8px rgba(0,0,0,0.3); */
+}
+.hov a .hoverr{
+  color: rgb(152, 198, 245);
+
+}
+
+.three a{
+  font-size: 26px;
+   color: black;
+  text-decoration: none;
+}
+.two {
+  box-sizing: border-box;
+  height: 80px;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 19px;
+  font-size: 23px;
+}
+.two a{
+  color: black;
+  text-decoration: none;
+  
+}
+.two div {
+  margin-left: 28px;
+}
+.two div:hover{
+    /* text-decoration: underline; */
+    /* color: blue; */
+      color: black;
+   /* text-shadow: 0px 16px 18px gray; */
+   
+}
+.section{
+    height: 80vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.left{
+height: 80vh;
+    width: 50%;
+    /* border: 2px solid black; */
+
+
+    margin: 40px;
+}
+.right{
+height: 75vh;
+width: 45%;
+/* border: 2px solid black; */
+margin: 40px;
+padding: 50px;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+    
+}
+.left img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+}
+.box{
+  font-size: 40px;
+  font-weight: 400;
+}
+.box1{
+  margin-top: 10px;
+   font-size: 20px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.nithin{
+  width: 48%;
+  height: 40px;
+}
+.nithin1{
+  width: 48%;
+   height: 40px;
+}
+.name{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+   margin-top: 18px;
+}
+.email{
+  height:40px ;
+  width: 98%;
+   margin-top: 10px;
+}
+.address{
+   height:80px ;
+  width: 98%;
+   margin-top: 10px;
+}
+.city{
+   width: 48%;
+  height: 40px;
+   margin-top: 10px;
+
+}
+.pin{ 
+  width: 48%;
+  height: 40px;
+   margin-top: 10px;
+
+}
+  .content{
+     height:50px ;
+  width: 98%;
+  /* border: 1px solid black; */
+   margin-top: 10px;
+
+   /* justify-content: center; */
+   display: flex;
+   align-items: center;
+   font-size: 17px;
+   opacity: 0.7;
+
+
+
+  }
+  button{
+     height:80px ;
+  width: 98%;
+  font-size:3vh ;
+   margin-top: 10px;
+   background-color: rgb(182, 182, 241);
+   border-radius: 10px;
+   border: none;
+
+  }
+  button:hover{
+    cursor: pointer;
+
+  }
+.your{
+     height:80px ;
+  width: 98%;
+  font-size:2vh ;
+  text-align: center;
+   margin-top: 10px;
+  
+}
