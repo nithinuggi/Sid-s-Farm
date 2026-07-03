@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+::-webkit-scrollbar{
+  display: none;
+}
 .nav {
   position: sticky;
   top: 0px;
@@ -40,10 +43,6 @@
 .one:hover{
      /* box-shadow: 0px 5px 8px rgba(0,0,0,0.3); */
 }
-.hov a{
-  color: rgb(152, 198, 245);
-
-}
 .three {
   font-size: 26px;
 }
@@ -65,6 +64,7 @@
 }
 .two div {
   margin-left: 28px;
+   color: rgb(152, 198, 245);
   cursor: pointer;
 }
 .two div:hover{
@@ -299,3 +299,313 @@ hr{
   /* background-color: rgb(247, 246, 245); */
   /* border: 2px solid black; */
 }
+.four{
+  display: none;
+}
+@media screen and (min-width: 850px) and (max-width: 1120px) {
+   .nav{
+    padding: 0px 40px;
+  }
+
+  .one {
+  font-size: 26px;
+   font-family: "Chelsea Market", system-ui;
+  font-weight: 300;
+  font-style: normal;
+ 
+}
+.line-spacing{
+  margin-top: 8px;
+  font-size: 22px;
+}
+.three a{
+  font-size: 22px;
+   color: black;
+  text-decoration: none;
+}
+.right1 {
+  font-size: 25px;
+  
+}
+.right2 {
+  font-size: 20px;
+ 
+  
+}
+.right3 button {
+  /* width: 100%; */
+  font-size: 20px;
+ 
+}
+
+.section-right{
+font-size: 22px;
+}
+.section-righttop{
+    font-size: 50px;
+}
+.down-bar{
+  height: 12vh;
+}
+.down-bar button{
+  height: 6vh;
+  width: 80px;
+}
+.section-left img{
+    height: 90%;
+    width: 100%;
+    /* object-fit: cover; */
+
+}
+
+}
+@media screen and (min-width: 600px) and (max-width: 850px) {
+.two{
+  display: none;
+}
+.three{
+  display: none;
+}
+.four{
+  display: block;
+  
+
+}
+.menudown{
+    position: absolute;
+    top: 70px;
+    right: 50px;
+     display: none;
+ /* border: 2px silver solid; */
+  background-color: rgb(234, 236, 239);
+  transition: 0.6s;
+   border-radius: 20px;
+     
+  }
+ .menudown div{
+  height: 30px;
+  width: 120px;
+  background-color: rgb(234, 236, 239);
+  padding: 5px;
+   cursor: pointer;
+   box-sizing: border-box;
+   transition: 0.6s;
+   border-radius: 20px;
+   
+ }
+ .menudown div a{
+  color: black;
+  text-decoration: none;
+  transition: 2s;
+
+
+ }
+  .four:hover .menudown{
+    display: block;
+    transition: 2s;
+  
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  .menudown div:hover{
+    text-align: center;
+
+ 
+ background-color: rgb(0, 0, 0);
+ a{
+  color: rgb(238, 233, 233);
+ }
+  }
+   .logo{
+     display: block;
+   position: absolute;
+   top:42px;
+   right: 47px;
+   font-size: 25px;
+   cursor: pointer;
+
+   }
+}
+
+@media screen and (max-width: 600px) {
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+  body{
+    overflow-x: hidden;
+  }
+ .two{
+  display: none;
+}
+.three{
+  display: none;
+}
+.four{
+  display: block;
+  
+
+}
+.menudown{
+    position: absolute;
+    top: 70px;
+    right: 50px;
+     display: none;
+
+  background-color: rgb(234, 236, 239);
+  transition: 0.6s;
+   border-radius: 20px;
+     
+  }
+ .menudown div{
+  height: 45px;
+  width: 170px;
+  /* background-color: rgb(234, 236, 239); */
+  padding: 15px;
+   cursor: pointer;
+   box-sizing: border-box;
+   transition: 0.6s;
+   border-radius: 20px;
+   
+ }
+ .menudown div a{
+  color: black;
+  text-decoration: none;
+  transition: 2s;
+
+
+ }
+  .four:hover .menudown{
+    display: block;
+    transition: 2s;
+  
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  .menudown div:hover{
+    text-align: center;
+
+ 
+ background-color: rgb(0, 0, 0);
+ a{
+  color: rgb(238, 233, 233);
+ }
+  }
+   .logo{
+     display: block;
+   position: absolute;
+   top:42px;
+   right: 47px;
+   font-size: 25px;
+   cursor: pointer;
+
+   }
+   .section{
+    flex-direction: column;
+    height: auto;
+   }
+   .section-left{
+    width: 100%;
+  height: auto;
+   }
+   .section-right{
+    width: 100%;
+    height: auto;
+   }
+  .section-righttop{
+ font-size: 40px;
+  }
+  .section-rightdown{
+    font-size: 25px;
+    width: 100%;
+  }
+  .down-bar{
+  height: 6vh;
+  width: 100%;
+
+  
+ 
+}
+.down-bar button{
+  height: 3vh;
+  width: 9%;
+  margin-left: 1%;
+  
+  font-size: 7px;
+
+
+}
+
+.cards{
+  padding: 10px;
+}
+.card{
+  height: 300px;
+  width: 200px;
+   margin:   32px 10px;  
+ 
+ 
+}
+
+.card-top img{
+  height: 90%;
+  width: 80%;
+}
+
+.card-down{
+
+   gap: 15px;
+  
+  
+}
+.name{
+  font-size: 17px;
+  font-weight: 900;
+  
+}
+
+
+.buttons div button{
+  height: 25px;
+  width: 65px;
+  background-color: rgb(186, 239, 211);
+/* border: none; */
+font-size: 8px;
+border-radius: 10px;
+
+}
+
+
+
+.footer {
+  height: 30vh;
+
+}
+.foott {
+  height: 30vh;
+  
+}
+.footb {
+    height: 11vh;
+    width: 46%;
+    margin: 5px;
+    font-size: 13px;
+    padding: 13px;
+  }
+.footd {
+  height: 5vh;
+
+}
+hr{
+  width: 100%;
+}
+
+.foot {
+  height: 50vh;
+ 
+}
+.foote {
+  height: 10vh;
+
+}
+
+  }
